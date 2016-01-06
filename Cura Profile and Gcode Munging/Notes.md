@@ -9,15 +9,15 @@ Note that depending on what needle you use on your syringe (we use [Nordson prec
 To print anything where the flow of PDMS needs to switch on and off (e.g. multiple parts next to each other, gaps between walls, etc), you need to add gcodes to open and close the solenoid valve. You can do this manually (see special gcodes below) or use a text munging tool we have provided. This simple script just looks through the original gcode for travel moves (G0 or G1 moves without an accompanying extrusion length) and turns off the pressure during these moves. 
 The gcode munging script is supplied as a python script and and EXE.
 
-# Special Gcodes for Pressure-driven extrusion
+## Special Gcodes for Pressure-driven extrusion
 
-## M128 S## : Prime E2P
+### M128 S## : Prime E2P
 The electro-pneumatic transducer must be primed at the beginning of each print! This command requires a PWM value - we use M128 S110
 
-## M127 : Close solenoid valve
+### M127 : Close solenoid valve
 Initiates flow of PDMS
 
-## M129 : Vent solenoid
+### M129 : Vent solenoid
 Stops flow of PDMS
 
 # Start/end Gcode

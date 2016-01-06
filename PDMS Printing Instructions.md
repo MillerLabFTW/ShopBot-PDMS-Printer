@@ -2,7 +2,7 @@
 
 ### Materials Preparation
 
-We are using non-flowing PDMS: [?]
+We are using non-flowing PDMS: [Dow Corning SE 1700] (http://www.dowcorning.com/applications/search/products/details.aspx?prod=01707116&type=PROD)
 The mix of PDMS follows a 10 of base: 1 of catalyst. 
 
 1. Grab a 60mL syringe. This is where we will deposit the materials. Remove the plunger at this time.

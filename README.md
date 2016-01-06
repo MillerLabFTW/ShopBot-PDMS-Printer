@@ -1,11 +1,15 @@
 # ShopBot PDMS Printer
 
 ##### Modified ShopBot Desktop CNC for pneumatic 3D printing of PDMS elastomer
-##### Miller Lab: Physiological Systems Engineering and Advanced Materials
+##### Miller Lab: Physiologic Systems Engineering and Advanced Materials
 ##### jmil@rice.edu
 &nbsp;
 
-The ability to 3D print with PDMS (polydimethyl siloxane) is extremely useful in the lab for constructing custom lab equipment and devices. We are 3D printing PDMS via a modified ShopBot desktop CNC system. 
+The ability to 3D print with PDMS (polydimethyl siloxane) is extremely useful in the lab for constructing custom lab equipment and devices. We are 3D printing PDMS via a modified ShopBot desktop CNC system. The toolhead of the ShopBot was replaced with a simple syringe mount and PDMS is extruded through the syringe under air pressure.
+
+![ShotBot pic] (https://github.com/MillerLabFTW/ShopBot-PDMS-Printer/pics/blob/master/PDMSShopBot.JPG?raw=true)
+
+With an appropriate syringe mount, you can implement PDMS printing with this setup on any 3D printer running Marlin. We like the ShopBot for its robust construction and large build area. 
 
 
 ###Build Documentation
