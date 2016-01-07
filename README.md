@@ -25,7 +25,7 @@ Modifications to the ShopBot:
 - Remove toolhead and replace with syringe holder (see Syringe Mount STLs)
 - Remove motherboard and use RAMBo to signal onboard stepper drivers
 - Install endstops 
-- Install a build platform. We used extrusion pre-assembly nuts slipped in between the grooves of the ShopBot base to anchor an aluminum sheet for our build platform (spring-loaded for bed leveling)
+- Install a build platform. We used extrusion pre-assembly nuts slipped in between the grooves of the ShopBot base to anchor an aluminum sheet for our build platform (spring-loaded for bed leveling). We print on glass, binder-clipped to the metal platform. 
 
 
 
