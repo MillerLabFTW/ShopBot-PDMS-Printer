@@ -2,7 +2,7 @@
 
 ##### Modified ShopBot Desktop CNC for pneumatic 3D printing of PDMS elastomer
 ##### Miller Lab: Physiologic Systems Engineering and Advanced Materials
-##### jmil@rice.edu
+##### [millerlab.rice.edu](millerlab.rice.edu)
 &nbsp;
 
 The ability to 3D print with PDMS (polydimethylsiloxane) is extremely useful in the lab for constructing custom lab equipment and devices. We are 3D printing PDMS via a modified ShopBot desktop CNC system. The toolhead of the ShopBot was replaced with a simple syringe mount and PDMS is extruded through the syringe under air pressure.
@@ -30,3 +30,15 @@ This git repository includes:
 
 
 ![MillerLab logo](https://github.com/MillerLabFTW/OpenSLS/blob/master/MillerLab_logo.jpg)
+
+### Acknowledgements
+
+3D printing of PDMS in this formulation was first demonstrated in Jennifer Lewis' lab at Harvard University:
+
+D. B. Kolesky, R. L. Truby, A. S. Gladman, T. A. Busbee, K. A. Homan and J. A. Lewis, Adv. Mater., 2014, 26, 3124–3130.
+
+Hat-tip to the [Lewis lab] (http://lewisgroup.seas.harvard.edu/) for all the exciting 3D printing work that they do.
+
+- Thanks to ShopBot for assistance modifying their desktop unit to be driven by RAMBo
+- Thanks to Ultimachine for RAMBo support and assistance with electropneumatic transducers
+- Thanks to the Marlin dev team and all the other open-source tools that support 3D printing
