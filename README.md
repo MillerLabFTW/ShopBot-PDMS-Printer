@@ -5,7 +5,7 @@
 ##### jmil@rice.edu
 &nbsp;
 
-The ability to 3D print with PDMS (polydimethyl siloxane) is extremely useful in the lab for constructing custom lab equipment and devices. We are 3D printing PDMS via a modified ShopBot desktop CNC system. The toolhead of the ShopBot was replaced with a simple syringe mount and PDMS is extruded through the syringe under air pressure.
+The ability to 3D print with PDMS (polydimethylsiloxane) is extremely useful in the lab for constructing custom lab equipment and devices. We are 3D printing PDMS via a modified ShopBot desktop CNC system. The toolhead of the ShopBot was replaced with a simple syringe mount and PDMS is extruded through the syringe under air pressure.
 
 ![ShotBot pic] (https://github.com/MillerLabFTW/ShopBot-PDMS-Printer/blob/master/Pics/PDMSShopBot.JPG?raw=true)
 
