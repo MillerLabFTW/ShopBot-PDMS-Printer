@@ -13,3 +13,4 @@ The transducer provides (some) pressure control while the solenoid valve rapidly
 # Electronics
 
 - It's necessary to convert PWM output from the RAMBo to a constant-voltage signal. We are using an "E2P" adapter from Ultimachine
+- Wire the grounds together on the RAMBo and ShopBot power supplies to match ground planes
