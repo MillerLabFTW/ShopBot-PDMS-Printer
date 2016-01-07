@@ -12,13 +12,21 @@ The ability to 3D print with PDMS (polydimethyl siloxane) is extremely useful in
 With an appropriate syringe mount, you can implement PDMS printing with this setup on any 3D printer running Marlin. We like the ShopBot for its robust construction and large build area. 
 
 
-###Build Documentation
+### Documentation
 This git repository includes:
 - STL files for 3D printing syringe-mount for the ShopBot
 - Current firmware (modified Marlin for pressure-driven extrusion)
 - Cura configuration and G-code munging script for G-code creation and processing
 - Wiring diagram for electronics configuration (based on RAMBo electronics)
 - Instructions for 3D printing with PDMS
+- Bill of materials
+
+Modifications to the ShopBot:
+- Remove toolhead and replace with syringe holder (see Syringe Mount STLs)
+- Remove motherboard and use RAMBo to signal onboard stepper drivers
+- Install endstops 
+- Install a build platform. We used extrusion pre-assembly nuts slipped in between the grooves of the ShopBot base to anchor an aluminum sheet for our build platform (spring-loaded for bed leveling)
+
 
 
 ![MillerLab logo](https://github.com/MillerLabFTW/OpenSLS/blob/master/MillerLab_logo.jpg)
