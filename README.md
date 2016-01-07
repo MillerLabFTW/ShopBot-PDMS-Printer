@@ -9,7 +9,7 @@ The ability to 3D print with PDMS (polydimethylsiloxane) is extremely useful in 
 
 ![ShotBot pic] (https://github.com/MillerLabFTW/ShopBot-PDMS-Printer/blob/master/Pics/PDMSShopBot.JPG?raw=true)
 
-With an appropriate syringe mount, you can implement PDMS printing with this setup on any 3D printer running Marlin. We like the ShopBot for its robust construction and large build area. 
+With an appropriate syringe mount, you can implement PDMS printing with this setup on any 3D printer running Marlin. We like the ShopBot for its robust construction, high-precision positioning, and large build area. 
 
 
 ### Documentation
@@ -21,7 +21,7 @@ This git repository includes:
 - Instructions for 3D printing with PDMS
 - Bill of materials
 
-Modifications to the ShopBot:
+### Modifications to the ShopBot:
 - Remove toolhead and replace with syringe holder (see Syringe Mount STLs)
 - Remove motherboard and use RAMBo to signal onboard stepper drivers
 - Install endstops 

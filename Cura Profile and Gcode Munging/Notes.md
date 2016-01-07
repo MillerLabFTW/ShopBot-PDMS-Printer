@@ -2,7 +2,7 @@
 
 Gcode is generated using the Cura machine profile. Crucially, you need to select "Only follow mesh surface" under expert options in Cura so you only get single-layer walls in your gcode. 
 
-The same effect can be achieved in Slic3r by setting zero vertical shells and zero top and bottom layers. 
+The same effect can be achieved in Slic3r by setting zero top and bottom layers, zero infill, and 1 vertical shell. 
 
 Note that depending on what needle you use on your syringe (we use [Nordson precision tips] (http://www.nordson.com/en/divisions/efd/products/dispense-tips/general-purpose-tips)), and what pressure you print at, the nozzle diameter will need to be changed. Our printing profile is based on printing with a 20GA 0.5" needle.
 
@@ -21,8 +21,9 @@ Initiates flow of PDMS
 Stops flow of PDMS
 
 # Start/end Gcode
-### The following Gcode should be used at the beginning/end of each file (should be part of the Cura profile already):
+#### The following Gcode should be used at the beginning/end of each file (should be part of the Cura profile already):
 
+```
 Start.gcode
 G21        ;metric values
 G90        ;absolute positioning
@@ -42,5 +43,5 @@ M84                         ;steppers off
 G90                         ;absolute positioning
 ;{profile_string}
 
-
+```
 
